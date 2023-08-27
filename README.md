@@ -15,6 +15,13 @@ To install the module, you can use pip:
 pip install whisper-cpp-python
 ```
 
+## dist
+```bash
+git clone --recursive https://github.com/shadowcz007/whisper-cpp-python.git && cd whisper-cpp-python
+python setup.py sdist
+```
+
+
 ## Usage
 
 To use the module, you need to create an instance of the `Whisper` class, passing the path to the model file as a parameter. Then, you can call the `transcribe` or `translate` method to transcribe or translate a given audio file.
